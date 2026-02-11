@@ -1,5 +1,5 @@
 ---
-name: schedule-agent
+name: herobrine
 description: Create, list, remove, and run scheduled autonomous Claude Code agents. Agents run on a timer via macOS launchd, execute any prompt headlessly, and deliver results via Beeper messages and macOS notifications. Use for recurring research, monitoring, overnight builds, or any task you want Claude to do on autopilot.
 disable-model-invocation: false
 user-invocable: true
@@ -19,7 +19,7 @@ Run Claude Code on autopilot. Create agents that execute any prompt on a schedul
 
 ```
 ┌─────────────────┐     ┌──────────────┐     ┌─────────────────┐
-│  /schedule-agent │────▶│  macOS       │────▶│  claude -p      │
+│  /herobrine │────▶│  macOS       │────▶│  claude -p      │
 │  create          │     │  launchd     │     │  (headless)     │
 └─────────────────┘     └──────────────┘     └────────┬────────┘
                                                        │
